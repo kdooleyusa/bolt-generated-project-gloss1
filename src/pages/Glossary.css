@@ -1,0 +1,62 @@
+.glossary {
+      padding: 20px;
+    }
+
+    .glossary h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .term-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjust minmax for desired box width */
+      gap: 20px;
+    }
+
+    .term-item {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      padding: 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    }
+
+    .term-item:hover {
+      background-color: #f9f9f9;
+    }
+
+    .term-item h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .term-item p {
+      font-size: 1em;
+      line-height: 1.4;
+      color: #555;
+    }
+
+    .term-links {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .term-links a {
+      text-decoration: none;
+      color: #007bff;
+      padding: 8px 12px;
+      border: 1px solid #007bff;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .term-links a:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
